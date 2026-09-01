@@ -1,0 +1,49 @@
+programa
+{
+    inclua biblioteca Util --> util
+    inclua biblioteca Texto --> texto
+    inclua biblioteca Calendario --> calendario
+    inclua biblioteca Matematica --> mat
+
+    funcao inicio()
+    {
+        cadeia nome
+        inteiro numeroSorte, tamanho
+        real raizNumero, potenciaNumero
+
+        escreva("Digite seu nome: ")
+        leia(nome)
+
+       
+        escreva("\nNome em maiúsculas: ", texto.caixa_alta(nome))
+        escreva("\nQuantidade de caracteres: ", texto.numero_caracteres(nome))
+
+       
+        numeroSorte = util.sorteia(1, 100)
+        escreva("\nSeu número da sorte é: ", numeroSorte)
+
+        escreva("\nAguardando 2 segundos...")
+        util.aguarde(2000)
+
+
+     
+        raizNumero = mat.raiz(numeroSorte, 2)
+        potenciaNumero = mat.potencia(numeroSorte, 2)
+
+        escreva("\nRaiz quadrada do número: ", mat.arredondar(raizNumero, 2))
+        escreva("\nNúmero ao quadrado: ", potenciaNumero)
+
+
+        escreva("\n\nData de hoje: ")
+        escreva(calendario.dia_mes_atual(), "/",
+                 calendario.mes_atual(), "/",
+                 calendario.ano_atual())
+
+        escreva("\nHora atual: ")
+        escreva(calendario.hora_atual(), ":",
+                 calendario.minuto_atual(), 
+                 calendario.segundo_atual())
+
+        escreva("\n\nFim do programa!")
+    }
+}
