@@ -1,0 +1,109 @@
+programa software de totem de autoatendimento
+
+{
+
+	funcao inicio()
+
+	{ 
+
+	 inteiro opcao = 1
+
+	 real total_pedido = 0
+
+	 enquanto (opcao!=4) {
+
+	 	escreva("=====TOTEM ATENDIMENTO=====")
+
+	 	escreva("1 - Hambúrguer (R$25,00)")
+
+	 	escreva("2 - Batata Frita (R$15,00)")
+
+	 	escreva("3 - Refrigerante (R$10,00)")
+
+	 	escreva("4 - Finalizar Pedido") 
+
+	     escreva(" - Escolha Uma Opção: ") 
+
+	     leia(opção) 
+
+          
+
+	     escolha opcao 
+
+          {
+
+                 caso 1:
+
+            total_pedido <- total_pedido + 25
+
+            escreval("Hambúrguer adicionado!")
+
+            escreval("Total atual: R$ ", total_pedidosorriso
+
+            pare
+
+            
+
+                 caso 2:
+
+            total_pedido <- total_pedido + 15
+
+            escreval("Batata Frita adicionada!")
+
+            escreval("Total atual: R$ ", total_pedidosorriso
+
+            pare
+
+            
+
+                 caso 3:
+
+            total_pedido <- total_pedido + 10
+
+            escreval("Refrigerante adicionado!")
+
+            escreval("Total atual: R$ ", total_pedidosorriso
+
+            pare 
+
+              
+
+                 caso 4:
+
+                 escreva("Finalizando pedido...")
+
+                 pare
+
+                  
+
+                 caso contrario
+
+                 escreva("Opção inválida! Tente novamente.")
+
+          
+
+          }
+
+
+
+                 escreva("Total atual: R$ ", total_pedido, "\n")
+
+                 escreva("\n CUPOM FISCAL \n")
+
+
+
+                 para(inteiro contador = 1; contador <= 5; contador++)
+
+                {
+
+                 escreva(" imprimindo nota fiscal...", contador, "\n")
+
+                }
+
+	 }
+
+	            escreva("Sistema encerrado\n")
+
+}
+
+}
