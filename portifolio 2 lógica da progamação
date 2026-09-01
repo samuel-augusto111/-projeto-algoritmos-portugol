@@ -1,0 +1,124 @@
+programa exercicio 1
+
+{
+
+funcao inicio()
+
+{
+
+cadeia senha
+
+cadeia senhaCorreta = "senha123"
+
+
+
+escreva("Digite a senha: ")
+
+leia(senha)
+
+
+
+enquanto (senha != senhaCorreta)
+
+{
+
+escreva("Senha incorreta, tente novamente!\n")
+
+escreva("Digite a senha: ")
+
+leia(senha)
+
+}
+
+
+
+escreva("Acesso Liberado! Bem-vindo!")
+
+}
+
+}
+
+
+
+
+
+
+
+programa exercicio 2
+
+{
+
+funcao inicio()
+
+{
+
+inteiro numero, contador
+
+
+
+escreva("Digite um numero inteiro positivo: ")
+
+leia(numero)
+
+ 
+
+escreva("\n Tabuada do ", numero, ": \n")
+
+
+
+para(contador = 1; contador <= 10; contador++)
+
+{
+
+escreva(numero, " x ", contador, " = ", numero * contador, " \n")
+
+}
+
+}
+
+}
+
+
+
+
+
+programa exercicio 3
+
+{
+
+funcao inicio()
+
+{
+
+cadeia senha
+
+cadeia senhaCorreta = "senha123"
+
+
+
+escreva("Digite a senha: ")
+
+leia(senha)
+
+
+
+enquanto (senha != senhaCorreta)
+
+{
+
+escreva("Senha incorreta, tente novamente!\n")
+
+escreva("Digite a senha: ")
+
+leia(senha)
+
+}
+
+
+
+escreva("Acesso Liberado! Bem-vindo!")
+
+}
+
+}
+
