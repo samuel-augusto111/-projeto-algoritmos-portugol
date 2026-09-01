@@ -1,0 +1,109 @@
+PORTIFÓLIO 1
+
+programa
+{
+    funcao inicio()
+    {
+        inteiro numeros[5]
+        inteiro i
+
+        para (i = 0; i < 5; i++)
+        {
+            leia(numeros[i])
+        }
+
+        para (i = 4; i >= 0; i--)
+        {
+            escreva(numeros[i], " ")
+        }
+    }
+}
+
+
+
+
+PORTIFOLIO 2 
+
+
+programa
+{
+    funcao inicio()
+    {
+        inteiro matriz[3][3]
+        inteiro i, j
+
+        para (i = 0; i < 3; i++)
+        {
+            para (j = 0; j < 3; j++)
+            {
+                leia(matriz[i][j])
+            }
+        }
+
+        para (i = 0; i < 3; i++)
+        {
+            escreva(matriz[i][i], " ")
+        }
+    }
+}
+
+
+
+PORTIFÓLIO 3
+
+
+
+programa
+{
+    funcao inicio()
+    {
+        cadeia nomes[3]
+        real notas[3][2]
+        real media
+        inteiro i, j
+
+        para (i = 0; i < 3; i++)
+        {
+            leia(nomes[i])
+
+            para (j = 0; j < 2; j++)
+            {
+                leia(notas[i][j])
+            }
+        }
+
+        para (i = 0; i < 3; i++)
+        {
+            media = (notas[i][0] + notas[i][1]) / 2
+            escreva(nomes[i], " - Média: ", media, "\n")
+        }
+    }
+}
+
+
+
+
+
+PORTIFOLIO 4
+
+
+programa
+{
+    funcao inicio()
+    {
+        inteiro matriz[3][3]
+        inteiro soma = 0
+        inteiro i, j
+
+        para (i = 0; i < 3; i++)
+        {
+            para (j = 0; j < 3; j++)
+            {
+                leia(matriz[i][j])
+                soma = soma + matriz[i][j]
+            }
+        }
+
+        escreva(soma)
+    }
+}
